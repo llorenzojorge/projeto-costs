@@ -1,7 +1,7 @@
 function Frase() {
     return (
         <div>
-            <p>Esse é um componente novo chamado 'Frase.js'</p>
+            <p>Esse é um componente com uma frase!</p>
         </div>
     )
 }
