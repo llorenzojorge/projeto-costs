@@ -1,4 +1,5 @@
 import './App.css';
+import Frase from './components/Frase';
 import HelloWorld from './components/HelloWorld';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <p>Pronto pra codar o Costs?</p>
       <p>Vamos nessa, {name.toUpperCase()}?</p>
       <HelloWorld />
+      <Frase />
     </div>
   );
 }
