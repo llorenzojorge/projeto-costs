@@ -1,7 +1,7 @@
-function SayMyName() {
+function SayMyName(props) {
     return (
         <div>
-            primeiro
+            <p>Fala comigo, ${props.nome}</p>
         </div>
     )
 }
