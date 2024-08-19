@@ -1,5 +1,6 @@
 import './App.css';
 import HelloWorld from './components/HelloWorld';
+import SayMyName from './components/SayMyName';
 
 function App() {
   const name = 'Lorenzo'
@@ -10,6 +11,8 @@ function App() {
       <p>Pronto pra codar o Costs?</p>
       <p>Vamos nessa, {name.toUpperCase()}?</p>
       <HelloWorld />
+      <SayMyName nome="Maria"/>
+      <SayMyName nome="Leandro"/>
     </div>
   );
 }
