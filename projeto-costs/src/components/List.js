@@ -9,7 +9,7 @@ function List() {
             <Item marca="Yamaha" ano_lancamento={1978}/>
             <Item marca="Kawasaki" ano_lancamento={1986}/>
             <Item marca="Suzuki" ano_lancamento={1986}/>
-            <Item/>
+            <Item/>  {/*Item tem como saída defaultProps definidos em Item*/}
         </ul>
         </>
     )
