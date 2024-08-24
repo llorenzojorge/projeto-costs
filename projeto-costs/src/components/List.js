@@ -7,7 +7,7 @@ function List() {
         <ul>
             <Item marca="Honda" ano_lancamento={1980}/>
             <Item marca="Yamaha" ano_lancamento={1978}/>
-            <Item marca="Kawasaki" ano_lancamento={1986}/>
+            <Item marca={Kawasaki} ano_lancamento={1986}/>
         </ul>
         </>
     )
