@@ -11,8 +11,8 @@ function Item({marca, ano_lancamento }) {
 }
 
 Item.propTypes = {
-    marca: PropTypes.string,
-    ano_lancamento: PropTypes.number
+    marca: PropTypes.string.isRequired,
+    ano_lancamento: PropTypes.number.isRequired
 }
 
 export default Item
