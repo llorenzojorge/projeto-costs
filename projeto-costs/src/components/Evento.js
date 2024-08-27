@@ -2,7 +2,7 @@ function Evento() {
     return (
         <div>
             <p>Clique para disparar</p>
-            <button></button>
+            <button onClick={meuEvento}>Ativar!</button>
         </div>
     )
 }
