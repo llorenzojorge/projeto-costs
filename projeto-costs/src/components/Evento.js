@@ -1,7 +1,7 @@
 function Evento({ numero }) {
 
     function meuEvento() {
-        console.log('Opa, você me disparou!')
+        console.log(`Opa, você disparou o ${numero}`)
     }
 
     return (
