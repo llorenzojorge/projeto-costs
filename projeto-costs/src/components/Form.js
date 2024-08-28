@@ -1,7 +1,7 @@
 function Form() {
     return (
         <div>
-            <input></input>
+            <h1>Meu cadastro</h1>
         </div>
     )
 }
