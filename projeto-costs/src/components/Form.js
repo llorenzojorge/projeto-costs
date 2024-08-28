@@ -8,7 +8,7 @@ function Form() {
     return (
         <div>
             <h1>Meu cadastro</h1>
-            <form onSubmite={cadastrarUsuario}>
+            <form onSubmit={cadastrarUsuario}>
                 <div>
                     <input type="text" placeholder="Digite seu nome"/>
                 </div>
