@@ -4,7 +4,8 @@ import Evento from './components/Evento';
 function App() {
   return (
     <div className="App">
-     <Evento />
+     <Evento numero="1"/>
+     <Evento numero="2"/>
     </div>
   );
 }
