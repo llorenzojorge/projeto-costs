@@ -1,8 +1,14 @@
 function Form() {
+
+    function cadastrarUsuario(e) {
+        e.preventDefault()
+        console.log("Cadastrou o Usuário")
+    }
+
     return (
         <div>
             <h1>Meu cadastro</h1>
-            <form>
+            <form onSubmite={cadastrarUsuario}>
                 <div>
                     <input type="text" placeholder="Digite seu nome"/>
                 </div>
