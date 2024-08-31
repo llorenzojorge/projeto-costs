@@ -10,8 +10,8 @@ function Form() {
             <h1>Meu cadastro</h1>
             <form onSubmit={cadastrarUsuario}>
                 <div>
-                <label htmlFor="name">Nome:</label>
-                <input type="text" id="name" name="name" placeholder="Digite seu nome"/>
+                    <label htmlFor="name">Nome:</label>
+                    <input type="text" id="name" name="name" placeholder="Digite seu nome"/>
                 </div>
                 <div>
                     <label htmlFor="password">Senha:</label>
