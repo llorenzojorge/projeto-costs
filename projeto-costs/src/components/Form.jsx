@@ -9,12 +9,13 @@ function Form() {
         <div>
             <h1>Meu cadastro</h1>
             <form onSubmit={cadastrarUsuario}>
-                <label htmlFor=""></label>
                 <div>
-                    <input type="text" placeholder="Digite seu nome"/>
+                <label htmlFor="name">Nome:</label>
+                <input type="text" id="name" name="name" placeholder="Digite seu nome"/>
                 </div>
                 <div>
-                    <input type="password" placeholder="Digite sua senha"/>
+                    <label htmlFor="password">Senha:</label>
+                    <input type="password" id="password" name="password" placeholder="Digite sua senha"/>
                 </div>
                 <div>
                     <input type="submit" value="Cadastrar"/>
