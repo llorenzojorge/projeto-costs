@@ -1,9 +1,13 @@
+import { useState } from "react"
+
 function Form() {
 
     function cadastrarUsuario(e) {
         e.preventDefault()
         console.log("Cadastrou o Usuário")
     }
+
+    const [name, setName] = useState()
 
     return (
         <div>
