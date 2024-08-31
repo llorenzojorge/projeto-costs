@@ -9,6 +9,7 @@ function Form() {
         <div>
             <h1>Meu cadastro</h1>
             <form onSubmit={cadastrarUsuario}>
+                <label htmlFor=""></label>
                 <div>
                     <input type="text" placeholder="Digite seu nome"/>
                 </div>
