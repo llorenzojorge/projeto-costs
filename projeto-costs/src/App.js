@@ -1,4 +1,5 @@
 import './App.css';
+import HelloWorld from './components/HelloWorld';
 
 function App() {
 
@@ -13,10 +14,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Entendendo o JSX</h1>
-      <p>Olá, {name}</p>
-      <p>Soma: {soma(5, 10)}</p>
-      <img src={url} alt="Imagem de 150px"/>
+      <HelloWorld />
     </div>
   );
 }
