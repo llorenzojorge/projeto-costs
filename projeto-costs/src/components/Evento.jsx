@@ -1,7 +1,7 @@
 function Evento() {
 
     function meuEvento() {
-        window.prompt('Teste')
+        window.alert('Você clicou no botão!')
     }
 
     return (
